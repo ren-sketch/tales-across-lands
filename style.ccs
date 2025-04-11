@@ -54,3 +54,36 @@ footer {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.6);
 }
+body {
+  background-image: url('https://img.freepik.com/free-photo/3d-cartoon-night-sky_23-2151705360.jpg?t=st=1744336644~exp=1744340244~hmac=ecc6c41d5ac44566d79c46461c3936fe26a5f6a72b4a2905a388bc94a522729f&w=1380');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Quicksand', sans-serif;
+  color: #ffffff;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: radial-gradient(circle, rgba(128, 0, 128, 0.3), transparent 70%);
+  z-index: -1;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.firefly {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  animation: float 3s ease-in-out infinite;
+  opacity: 0.8;
+  box-shadow: 0 0 6px 2px #9c27b
