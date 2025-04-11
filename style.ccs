@@ -1,0 +1,56 @@
+/* Reset body and margin to ensure full use of screen */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://img.freepik.com/free-photo/3d-cartoon-night-sky_23-2151705360.jpg?t=st=1744336644~exp=1744340244~hmac=ecc6c41d5ac44566d79c46461c3936fe26a5f6a72b4a2905a388bc94a522729f&w=1380'),
+                    url('https://www.example.com/your-tree-image.jpg'); /* Change this to your tree image URL */
+  background-position: top center, center center;
+  background-repeat: no-repeat, repeat;
+  background-size: cover, auto;
+  color: white;
+  line-height: 1.5;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  padding: 100px 0;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+  font-size: 3.5em;
+  font-family: 'Georgia', serif;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+  margin: 0;
+}
+
+/* Main section styling */
+main {
+  padding: 50px 20px;
+}
+
+#projects {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 2.5em;
+  font-family: 'Georgia', serif;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+}
